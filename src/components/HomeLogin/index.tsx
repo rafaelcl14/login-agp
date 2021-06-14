@@ -12,7 +12,7 @@ const HomeLogin: React.FC<getLogins> = ({ data }) => {
   
 
   const listaClientes = () => {
-    return fetch(`http://143.198.170.96/logins`)
+    return fetch(`https://cms.agenciapremium.com.br/logins`)
     .then( resposta => {
         console.log(resposta);
       
